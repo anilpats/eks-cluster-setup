@@ -16,7 +16,7 @@ managedNodeGroups:
     volumeSize: 10
     ssh:
       allow: true
-      publicKeyName: devops-8am
+      publicKeyName: EKCTL
     labels: {role: worker}
     tags:
       nodegroup-role: worker
@@ -34,7 +34,7 @@ managedNodeGroups:
     volumeSize: 10
     ssh:
       allow: true
-      publicKeyName: devops-8am
+      publicKeyName: EKCTL
     labels: {role: worker}
     tags:
       nodegroup-role: worker
